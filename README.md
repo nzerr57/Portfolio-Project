@@ -2,7 +2,7 @@
 
 ## Description
 
-The objective of this project was to create a portfolio page that contains information about me and also show cases some of my projects I have completed. At the time of 
+The objective of this project was to create a portfolio page that contains information about me (short bio and contact info) and also showcases some of my projects I have completed. At the time of doing this project I haven't finished many projects worth adding to my portfolio, but I plan to add more in the future once I get farther into my coding journey.
 
 [Link to Deployed Project](https://nzerr57.github.io/Portfolio-Project/)
 
