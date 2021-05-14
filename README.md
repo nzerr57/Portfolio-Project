@@ -6,6 +6,8 @@ The objective of this project was to create a portfolio page that contains infor
 
 [Link to Deployed Project](https://nzerr57.github.io/Portfolio-Project/)
 
+![Screenshot of Project](https://github.com/nzerr57/Portfolio-Project/blob/main/assets/images/Screenshot1.jpg)
+
 MIT License
 
 Copyright (c) [2021] [Nathan Zerr]
