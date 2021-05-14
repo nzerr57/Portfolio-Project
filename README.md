@@ -1,6 +1,6 @@
 # Portfolio-Project
 
-##Description
+## Description
 
 The objective of this project was to create a portfolio page that contains information about me and also show cases some of my projects I have completed. At the time of 
 
