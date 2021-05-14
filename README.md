@@ -6,7 +6,7 @@ The objective of this project was to create a portfolio page that contains infor
 
 [Link to Deployed Project](https://nzerr57.github.io/Portfolio-Project/)
 
-![Screenshot of Project](https://github.com/nzerr57/Portfolio-Project/blob/main/assets/images/Screenshot1.jpg)
+![Screenshot of Project](Portfolio-Project/assets/images/Portfolio Screenshot.png)
 
 MIT License
 
