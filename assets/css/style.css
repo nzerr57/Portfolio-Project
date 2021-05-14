@@ -4,13 +4,13 @@
 }
 
 :root {
-
+ --main-blue: rgb(45, 0, 207)
 }
 
 header {
-    background-color: rgb(107, 105, 105);
-    color: rgb(69, 245, 245);
-    padding: 30px;
+    background-image: url(../images/white.jpg);
+    color: var(--main-blue);
+    padding: 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,33 +25,59 @@ nav {
 nav a {
     margin: 20px;
     font-size: 150%;
-    color:rgb(69, 245, 245)
+    color: var(--main-blue)
 }
 
 nav a:hover {
-    background-color:rgb(69, 245, 245);
+    background-color: var(--main-blue);
     color: rgb(107, 105, 105);
     padding: 10px;
     border-radius: 10px;
 }
 
+h3 {
+    background-color: white;
+}
+
 .container {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.material {
+  padding: 8px 16px;
+  border-left: 4px solid #131356;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+img {
+    max-height: 200px;
+}
+
+.main-project {
+    width: 100%;
+    min-height: 300px;
     margin: 10px;
-    justify-content: center;
-    align-items: center;
+    border: 2px solid var(--main-blue);
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
 }
 
 .project {
-    border: 2px solid rgb(160, 145, 145);
-    color: white;
-    text-align: center;
-    justify-content: center;
+    border: 2px solid var(--main-blue);
+    width: 48%;
+    min-height: 150px;
+    margin: 10px;
+    display: flex;
     align-items: center;
-    padding: 0 10px;
-    margin: 40px;
-    flex: 1 0 300px
+    box-sizing: border-box;
 }
 
 .project:first-child {
@@ -60,22 +86,48 @@ nav a:hover {
 
 /*Project Section Background Images*/
 
-.project-0 {
+.project-1 {
     background-image: url("../images/Screenshot1.jpg")
 }
 
-.project-1 {
+.project-2 {
     background-image: url("../images/steel.jpg");
 }
 
-.project-2 {
+.project-3 {
     background-image: url("../images/digital.jpg");
 }
 
-.project-3 {
+.project-4 {
     background-image: url("../images/blue.jpg");
 }
 
-.project-4 {
+.project-5 {
     background-image: url("../images/Books.jpg");
+}
+
+.project:hover,
+.main-project:hover {
+    border: 5px solid limegreen;
+}
+
+.contact {
+    border: 2px solid black;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact a {
+    margin: 20px;
+    font-size: 150%;
+    color: var(--main-blue);
+}
+.contact a:hover {
+    background-color: var(--main-blue);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
